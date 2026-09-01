@@ -10,7 +10,7 @@ class Solution {
             }
          else {
             st.pop();
-         }
+         
 if(st.empty()){
     st.push(i);
 }
@@ -18,8 +18,10 @@ if(st.empty()){
             ans=Math.max(ans,i-st.peek());
         }
                 }
+               
             }
-                    return ans;
-        
+             return ans;
     }
+        
+    
 }
