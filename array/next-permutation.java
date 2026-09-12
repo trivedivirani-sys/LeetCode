@@ -29,7 +29,7 @@ int i = nums.length - 2;
         nums[left] = nums[right];  
         nums[right] = temp;  
 
-        left++;  1
+        left++;  
         right--;  
     }  
 }
